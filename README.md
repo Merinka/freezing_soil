@@ -2,7 +2,8 @@
 This repository contains results (out) and configuration files (drutes.config) from drutes freezing soil simulations (drutes_runs).  
 Exp1 - Soil column experiment (dx = 0.0035 m)  
 It also contains a link to the current version of Drutes and R script drutes_plots.R for plotting the results.  
-
+Drutes is run from the command line. For more info see https://drutes.org/  
+<br/>
 **Required packages:**  
 make  
 gfortran  
@@ -24,4 +25,4 @@ r-base (for plotting the results)
 ***x.axis***    TRUE or FALSE, whether or not you want xlabel to display (defaul = TRUE)  
 <br/>
 example:  
-`drutes_plots.R Temperature drutes_runs/exp1`  
+`Rscript drutes_plots.R Temperature drutes_runs/exp1`  
