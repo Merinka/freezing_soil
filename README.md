@@ -21,7 +21,7 @@ r-base (for plotting the results)
 `Rscript drutes_plots.R [var] [path] [x.axis]`  
 <br/>
 ***var***       The variable to plot against time. Options:
-                'Liquid', 'Ice', 'Press_head', 'Press_head_l', 'Total_Water', 'Water_Flow', 'Cum_wat_flux', 'Temperature', 'Heat_flux', 'Cum_heat_flux'.  
+                'Liquid', 'Ice', 'Press_head', 'Press_head_l', 'Total_water', 'Water_Flow', 'Cum_wat_flux', 'Temperature', 'Heat_flux', 'Cum_heat_flux'.  
 ***path***      The path to the folder containing the out folder (default = drutes)  
 ***x.axis***    TRUE or FALSE – whether to display the x-axis label (default = TRUE)  
 <br/>

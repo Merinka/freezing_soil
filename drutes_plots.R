@@ -10,7 +10,7 @@ library(dplyr)
 
 time_ser <- function(var, path, x_axis) {
   
-  if (var %in% c("Temperature", "Liquid", "Ice", "Press_head", "Press_head_l", "Total_Water", "Water_flow", "Cum_wat_flux", "Heat_flux", "Cum_heat_flux")){
+  if (var %in% c("Temperature", "Liquid", "Ice", "Press_head", "Press_head_l", "Total_water", "Water_flow", "Cum_wat_flux", "Heat_flux", "Cum_heat_flux")){
   
     if(var %in% c("Temperature", "Heat_flux", "Cum_heat_flux")) {
     
